@@ -622,7 +622,7 @@ async def main():
     init_database()
     
     # Bot yaratish - yangi usul
-    application = Application.builder().token(BOT_TOKEN).build()
+    application = Application.builder().token("7626749090:AAFL--dyGniYyUVQ-U0sErxtwOL0qbrytXs").build()
     
     # Handlerlarni qo'shish
     application.add_handler(CommandHandler("start", start))
