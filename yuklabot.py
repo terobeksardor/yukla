@@ -26,12 +26,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Bot sozlamalari
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-WEBHOOK_URL = os.getenv("WEBHOOK_URL")
-PORT = int(os.getenv("PORT", 8080))
-ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "6852738257").split(",")]
-DATABASE_PATH = os.getenv("DATABASE_URL", "bot_database.db")
-
+BOT_TOKEN = "7626749090:AAFL--dyGniYyUVQ-U0sErxtwOL0qbrytXs"
+WEBHOOK_URL = "https://yukla.onrender.com"
+PORT = 8080
+ADMIN_IDS = [6852738257]
+DATABASE_PATH = "bot_database.db"
 # Thread pool for downloading
 executor = ThreadPoolExecutor(max_workers=3)
 
